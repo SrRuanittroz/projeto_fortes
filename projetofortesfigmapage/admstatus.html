@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortes</title>
+    <link rel="stylesheet" href="../css/admstatus.css">
+    <link rel="shortcut icon" href="../Imagens/Icon.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="../Imagens/Icon.png" alt="Logo" class="logo-img">
+            <h1>Fortes</h1>
+        </div>
+        <nav class="menu">
+            <a href="#">Contato</a>
+            <a href="#">Quem Somos</a>
+            <button class="ajuda">Ajuda</button>
+        </nav>
+    </header>
+  
+    <main>
+      <div class="search-bar">
+        <input type="text" placeholder="Pesquise...">
+      </div>
+      <h2>Histórico</h2>
+      <div class="filters">
+        <span><span class="status-dot approved"></span> Aprovado</span>
+        <span><span class="status-dot rejected"></span> Reprovado</span>
+        <span><span class="status-dot pending"></span> Em Análise</span>
+        <button class="filter-btn">Filtro</button>
+      </div>
+  
+      <div class="project-card">
+        <div class="status"><span class="status-dot approved"></span> Aprovado</div>
+        <h3>ONGs / Instituições</h3>
+        <div class="actions">
+          <select>
+            <option>Editar Status</option>
+            <option>Reprovar Projeto</option>
+            <option>Aprovar Projeto</option>
+          </select>
+          <textarea >Parabéns! Seu projeto foi aprovado. Estamos entusiasmados com o seu potencial e ansiosos para acompanhar os próximos passos dessa jornada de sucesso!</textarea>
+        </div>
+      </div>
+  
+      <div class="project-card">
+        <div class="status"><span class="status-dot pending"></span> Em Análise</div>
+        <h3>ONGs / Instituições</h3>
+        <div class="actions">
+          <select>
+            <option>Editar Status</option>
+            <option>Reprovar Projeto</option>
+            <option>Aprovar Projeto</option>
+          </select>
+          <textarea >Seu projeto está em análise. Aguarde nossa avaliação.</textarea>
+        </div>
+      </div>
+  
+      <button class="load-more">Finalizar</button>
+    </main>
+  </body>
+  </html>

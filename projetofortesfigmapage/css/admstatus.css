@@ -1,0 +1,145 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf4fc;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #319fc7;
+    color: white;
+  }
+  
+  header .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  header .logo img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  header .user-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  header .ajuda {
+    background-color: #f3933a;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  header .user {
+    background-color: white;
+    color: #007bff;
+    padding: 5px 10px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #f3933a;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px 0;
+    gap: 15px;
+  }
+  
+  .status-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  
+  .approved {
+    background-color: #27ae60;
+  }
+  
+  .rejected {
+    background-color: #f3933a;
+  }
+  
+  .pending {
+    background-color: #f39c12;
+  }
+  
+  .project-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card .status {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .project-card h3 {
+    margin: 0 0 10px;
+  }
+  
+  .actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .actions select, 
+  .actions textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  .load-more {
+    display: block;
+    margin: 20px auto;
+    background-color: #f3933a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

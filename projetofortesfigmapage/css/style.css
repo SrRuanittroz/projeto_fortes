@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #cfe3f6;
+    color: #333;
+}
+
+.header {
+    background-color: #319fc7;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: white;
+}
+
+.menu a, .menu .ajuda {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.menu .ajuda {
+    background-color: #f3933a;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+
+.menu .login {
+    background: white;
+    padding: 8px 15px;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.login-form label {
+    display: block;
+    margin: 12px 0 5px;
+    font-size: 14px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.login-form .password-wrapper {
+    position: relative;
+}
+
+.login-form .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: -10px;
+    color: #319fc7;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #319fc7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn.secondary {
+    background-color: #f3933a;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.secondary:hover {
+    opacity: 0.9;
+}

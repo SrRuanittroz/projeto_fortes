@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #cfe3f6;
+    color: #333;
+}
+
+.header {
+    background-color: #319fc7;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.section-title{
+    color: #f3933a;
+    text-align: center;
+}
+
+.logo-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.menu a, .menu .ajuda {
+    color: white;
+    text-decoration: none; 
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.menu .ajuda {
+    background-color: #f3933a;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.cards {
+    border-color: #f3933a;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: white;
+}
+
+.card {
+    background-color: #319fc7;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 30%; 
+    padding: 30px; 
+    text-align: center;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    height: 250px;
+}
+
+.card:hover {
+    background-color: #f3933a;
+}
+
+.card h3 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.card .icon {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.search {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.search input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 60%;
+}
+
+.status-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f3933a;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.status-btn:hover {
+    background-color: #e07727;
+}
+
+.project-list {
+    margin-top: 20px;
+}
+
+.project-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.project-item span {
+    font-size: 16px;
+}
+
+.subscribe-btn {
+    padding: 5px 15px;
+    background-color: #319fc7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: #f3933a;
+}
+
+.load-more-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #319fc7;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.load-more-btn:hover {
+    background-color: #f3933a;
+}

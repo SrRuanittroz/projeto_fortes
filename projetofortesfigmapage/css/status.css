@@ -1,0 +1,150 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #d9e8f5;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #48a4d1;
+    color: #fff;
+  }
+  
+  header .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  header .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  header nav a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header .ajuda {
+    background-color: #ff7f50;
+    border: none;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  header .user {
+    background-color: #fff;
+    color: #48a4d1;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .historico h2 {
+    color: #d86422;
+    text-align: center;
+  }
+  
+  .search {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .status-indicator {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .status-indicator .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .status-indicator .green {
+    background-color: green;
+  }
+  
+  .status-indicator .red {
+    background-color: red;
+  }
+  
+  .status-indicator .yellow {
+    background-color: yellow;
+  }
+  
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+  }
+  
+  .item p {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  .status {
+    font-weight: bold;
+  }
+  
+  .status.green {
+    color: green;
+  }
+  
+  .status.red {
+    color: red;
+  }
+  
+  .status.yellow {
+    color: orange;
+  }
+  
+  .status-btn {
+    background-color: #d86422;
+    border: none;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .load-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #d86422;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
